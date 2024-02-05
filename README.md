@@ -6,6 +6,10 @@ It's organized into four files within the folder:
 3. upload.py
 4. download.py
 
+### Folders 
++ Folder images contains the images you want to upload
++ Folder download_folder is the folder where the downloaded images are stored
+  
 To execute the program, run the main.py script using the following parameters:
 
 ### Credentials:
