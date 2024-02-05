@@ -11,16 +11,16 @@ python3 main.py
 
 The program supports the following command-line arguments:
 
-Credentials:
+#Credentials:
 --group #user group
 --user #user name
 --pass #password
 
-Operations:
+#Operations:
 --post #upload a file
 --get #download a file
 
-File Path:
+#File Path:
 --path # Path of the image you want to upload 
 
 
