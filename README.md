@@ -7,6 +7,7 @@ It's organized into four files within the folder:
 4. download.py
 
 To execute the program, run the main.py script using the following command:
+## Blockquotes
 python3 main.py 
 
 The program supports the following command-line arguments:
@@ -24,4 +25,6 @@ The program supports the following command-line arguments:
 --path # Path of the image you want to upload 
 --search # Pattern you want to search
 
-For example python3 main.py --post --path ./images/goats_2_fr0050.jpg
+For example
+## Blockquotes
+python3 main.py --post --path ./images/goats_2_fr0050.jpg
