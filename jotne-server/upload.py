@@ -2,11 +2,10 @@ import requests
 import os
 
 
-def upload_file(PLM_URL, MODEL,REPOSITORY, NODE,token):
+def upload_file(PLM_URL, MODEL,REPOSITORY, NODE,token,image_path):
     
     print('\n---- Try to Upload file ----')
 
-    image_path = '/home/spaspalakis/Desktop/certh/Projects/TREEADS/codes/treeads_v3/snaphot_folder/goats_2_fr0020.jpg'
     filename = os.path.basename(image_path)
     
     file_to_upload = open(image_path, "rb") 
