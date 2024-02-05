@@ -22,6 +22,6 @@ The program supports the following command-line arguments:
 
 #File Path:
 --path # Path of the image you want to upload 
-
+--search # Pattern you want to search
 
 For example python3 main.py --post --path ./images/goats_2_fr0050.jpg
