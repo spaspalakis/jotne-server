@@ -7,8 +7,7 @@ It's organized into four files within the folder:
 4. download.py
 
 To execute the program, run the main.py script using the following command:
-## Blockquotes
-python3 main.py 
+> python3 main.py 
 
 The program supports the following command-line arguments:
 
@@ -26,5 +25,4 @@ The program supports the following command-line arguments:
 --search # Pattern you want to search
 
 For example
-## Blockquotes
-python3 main.py --post --path ./images/goats_2_fr0050.jpg
+> python3 main.py --post --path ./images/goats_2_fr0050.jpg
