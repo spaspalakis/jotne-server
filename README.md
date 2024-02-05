@@ -14,12 +14,12 @@ To execute the program, run the main.py script using the following parameters:
 + --pass #password
 
 ### Operations:
---post #upload a file
---get #download a file
++ --post #upload a file
++ --get #download a file
 
 ### File Path:
---path # Path of the image you want to upload 
---search # Pattern you want to search
++ --path # Path of the image you want to upload 
++ --search # Pattern you want to search
 
 For example
 > python3 main.py --post --path ./images/goats_2_fr0050.jpg
