@@ -16,9 +16,9 @@ It's organized into four files within the folder:
 To execute the program, run the main.py script using the following parameters:
 
 ### Credentials:
-+ --group &nbsp;  #user group
-+ --user  &nbsp;  #user name
-+ --pass  &nbsp;  #password
++ --group  #user group
++ --user   #user name
++ --pass   #password
 
 ### Operations:
 + --post   #upload a file
