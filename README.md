@@ -21,6 +21,6 @@ To execute the program, run the main.py script using the following parameters:
 + --path # Path of the image you want to upload 
 + --search # Pattern you want to search
 
-For example: Upload an image into the server
+For example: Upload an image to the server
 
 > python3 main.py --post --path ./images/goats_2_fr0050.jpg
