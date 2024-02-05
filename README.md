@@ -1,21 +1,27 @@
-This code is written in python 3.8 language 
- 
-The folder contains four files:
-1. main
-2. login
-3. upload
-4. download
+This Python code is developed using Python 3.8. 
 
-You run the main.py function by writing : 
+It's organized into four files within the folder:
+1. main.py
+2. login.py
+3. upload.py
+4. download.py
+
+To execute the program, run the main.py script using the following command:
 python3 main.py 
 
-Arguments :
-for credentials
+The program supports the following command-line arguments:
+
+Credentials:
 --group #user group
 --user #user name
 --pass #password
 
+Operations:
 --post #upload a file
 --get #download a file
 
---path # Path of the image you want to uploa 
+File Path:
+--path # Path of the image you want to upload 
+
+
+For example python3 main.py --post --path ./images/goats_2_fr0050.jpg
