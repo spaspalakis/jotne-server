@@ -1,6 +1,6 @@
 This Python code is developed using Python 3.8. 
 
-### Folders 
+### Files & Folders 
 
 It's organized into four files within the folder:
 1. main.py
