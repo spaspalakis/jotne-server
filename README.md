@@ -8,16 +8,16 @@ It's organized into four files within the folder:
 
 To execute the program, run the main.py script using the following parameters:
 
-## Credentials:
---group #user group
---user #user name
---pass #password
+### Credentials:
++ --group #user group
++ --user #user name
++ --pass #password
 
 ### Operations:
 --post #upload a file
 --get #download a file
 
-#### File Path:
+### File Path:
 --path # Path of the image you want to upload 
 --search # Pattern you want to search
 
