@@ -8,8 +8,8 @@ It's organized into four files within the folder:
 3. upload.py
 4. download.py
 
-+ Folder images contain the images you want to upload
-+ Folder download_folder is the folder where the downloaded images are stored
++ Folder _images_ contain the images you want to upload
++ Folder _download_folder_ is the folder where the downloaded images are stored
 
 ***
 
