@@ -13,7 +13,9 @@ It's organized into four files within the folder:
 
 ***
 
-To execute the program, run the main.py script using the following parameters:
+> [!NOTE]
+> To execute the program, run the main.py script using the following parameters:
+
 
 ### Credentials:
 + --group  #user group
