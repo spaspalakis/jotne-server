@@ -6,10 +6,7 @@ It's organized into four files within the folder:
 3. upload.py
 4. download.py
 
-To execute the program, run the main.py script using the following command:
-> python3 main.py 
-
-The program supports the following command-line arguments:
+To execute the program, run the main.py script using the following parameters:
 
 ## Credentials:
 --group #user group
