@@ -31,6 +31,13 @@ It's organized into four files within the folder:
 + --search  #Pattern you want to search
 
 ***
-For example: Upload an image to the server
+For example:
 
+Upload an image to the server
 > python3 main.py --post --path ./images/goats_2_fr0050.jpg
+
+Download images from the server 
+> python3 main.py --get --search goats_2_fr0094.jpg
+
+
+
