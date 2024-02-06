@@ -42,7 +42,7 @@ def process_file(base_url, model, token, search_pattern, repository):
         print(f'\nsearch_url: {search_url}')
 
         search_result = make_request(search_url, params=data_param, headers=headers)
-        print(f'\ndoc_search_result: {search_result}')
+        # print(f'\ndoc_search_result: {search_result}')
 
         if not search_result:
             raise ValueError("Document search yielded no results")
@@ -55,7 +55,7 @@ def process_file(base_url, model, token, search_pattern, repository):
         # Get file properties
         file_prop_url = f"{base_url}/api/dat/file/link/{repository}/{model}/{token}"
         file_properties = make_request(file_prop_url, params=doc_file_prop, headers=headers)
-        print(f'\nfile_properties: {file_properties}')
+        # print(f'\nfile_properties: {file_properties}')
 
         if not file_properties:
             raise ValueError("No file properties found for the document")
@@ -69,7 +69,7 @@ def process_file(base_url, model, token, search_pattern, repository):
             raise ValueError("File download failed")
 
         # Save the file
-        folder_path ='download_folder'
+        folder_path ='./download_folder'
         
         # Create the folder if it doesn't exist
         Path(folder_path).mkdir(parents=True, exist_ok=True)
