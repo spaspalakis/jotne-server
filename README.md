@@ -36,7 +36,7 @@ For example:
 Upload an image to the server
 > python3 main.py --post --path ./images/goats_2_fr0050.jpg
 
-Download images from the server 
+Download image from the server 
 > python3 main.py --get --search goats_2_fr0094.jpg
 
 
