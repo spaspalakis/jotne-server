@@ -18,7 +18,7 @@ It's organized into five files within the folder:
 
 ***
 
-> [!NOTE]
+> [!TIP]
 > To execute the program, run the main.py script using the following parameters:
 
 
